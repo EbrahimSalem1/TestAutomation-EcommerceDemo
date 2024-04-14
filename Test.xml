@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestAutomationDemoNopEcommerce Suite" >
+    <listeners>
+        <listener class-name="base.TestListeners"/>  <!-- the directory of the listeners class in the project-->
+    </listeners>
+    <test name="RegistrationTest">
+        <classes>
+            <class name="registration.RegistrationTests">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginTest">
+        <classes>
+            <class name="login.LoginTests">
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="LogoutTest">-->
+<!--        <classes>-->
+<!--            <class name="Logout.LogoutTest">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
