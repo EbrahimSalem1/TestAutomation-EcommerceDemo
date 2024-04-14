@@ -1,4 +1,4 @@
-Test Automatio E-Commerce Assignment
+Test Automation for E-Commerce Assignment
 
 This is a test automation E-commerce Web which uses Selenium for browser automation uses other Things:
 
